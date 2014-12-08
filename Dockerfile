@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 RUN \
   apt-get update && \
-  apt-get install -y software-properties-common
+  apt-get install -y software-properties-common build-essential
 
 RUN \
   apt-add-repository ppa:brightbox/ruby-ng-experimental && \
